@@ -9,12 +9,11 @@
 /* Write CSS code below */
 
 .main-content{
-    min-height: 1000px;
+    min-height: 1100px;
     width: 90%;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
-    overflow: auto;
 }
 .left-section{
     grid-column: span 1;
@@ -27,7 +26,13 @@
 .left-content{
     padding: 1rem;
 }
-
+.profile-details {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .profile-image{
     display: block;
     margin: auto;
@@ -43,7 +48,7 @@
     object-fit: fill;
 }
 
-.name{
+.name {
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
@@ -51,7 +56,6 @@
     white-space: 0.02px;
     padding: 0.8rem;
 }
-
 .designation{
     font-size: 1rem;
     text-align: center;
