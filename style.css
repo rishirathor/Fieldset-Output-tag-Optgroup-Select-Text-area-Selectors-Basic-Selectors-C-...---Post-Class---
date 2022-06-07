@@ -26,13 +26,6 @@
 .left-content{
     padding: 1rem;
 }
-.profile-details {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 .profile-image{
     display: block;
     margin: auto;
@@ -48,6 +41,7 @@
     object-fit: fill;
 }
 .name {
+    font
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
@@ -104,7 +98,7 @@
     font-size: large;
     font-weight: 500;
     background-color: azure;
-    color: cyan;
+    color: rgb(17, 95, 95);
 }
 
 .right-title{
