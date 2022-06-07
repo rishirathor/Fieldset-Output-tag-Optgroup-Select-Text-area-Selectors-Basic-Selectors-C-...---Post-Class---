@@ -49,7 +49,7 @@
     text-align: center;
     text-transform: uppercase;
     white-space: 0.02px;
-    padding: 00.8rem;
+    padding: 0.8rem;
 }
 
 .designation{
@@ -94,7 +94,14 @@
 }
 
 .right-main-content{
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 3rem;
+}
+.right-section {
+    grid-column: span 1 / span 2;
+    font-size: large;
+    font-weight: 500;
+    background-color: azure;
+    color: cyan;
 }
 
 .right-title{
@@ -109,9 +116,6 @@
 .course-detail{
     max-width: 65%;
 }
-/* .passing-detail{
-    padding-right: 0;
-} */
 .project-content{
     display: flex;
     justify-content: space-around;
