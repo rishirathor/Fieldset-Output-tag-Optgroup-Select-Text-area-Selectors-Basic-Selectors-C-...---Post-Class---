@@ -45,7 +45,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    white-space: 0.02px;
+    letter-spacing: 0.02px;
     padding: 0.8rem;
 }
 .designation{
