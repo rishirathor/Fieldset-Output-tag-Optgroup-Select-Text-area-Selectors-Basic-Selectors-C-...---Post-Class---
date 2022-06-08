@@ -102,6 +102,10 @@
 
 .right-title{
     text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem;
+    letter-spacing: 1px;
 }
 
 .education-content{
